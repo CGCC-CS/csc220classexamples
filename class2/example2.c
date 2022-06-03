@@ -4,7 +4,7 @@ void print_numbers(int limit);  /* Forward declaration (or prototype) */
 
 int main(void) {
     int num = 44;       /* Integer variable */
-    int hexnum = 0x44;  /* Integer variable & hexidecimal literal */
+    int hexnum = 0x44;  /* Integer variable & hexadecimal literal */
     double val = 123.456;  /* Floating-point variable */
     char ch = 'A';      /* Character variable */
 
