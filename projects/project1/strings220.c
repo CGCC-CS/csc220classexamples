@@ -1,5 +1,6 @@
 #include<string.h>
 #include<stdio.h>
+#include"strings220.h"
 
 /* Count the number of alphabetic characters in a string */
 int alpha_char_count(char * str) {
