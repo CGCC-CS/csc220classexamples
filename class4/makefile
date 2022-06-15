@@ -1,10 +1,10 @@
-all: stringsargs
+all: stringsarg 
 
-stringsargs: projecthelp.c
-	gcc --std=c11 -pedantic -Wall stringsargs.c -o stringsargs
+stringsarg: stringsargs.c
+	gcc --std=c11 -Wall -pedantic stringsargs.c -o stringsarg
 
 clean:
-	rm -f *.o *.exe *.out stringsargs *~
+	rm -f *.o *.exe *.out stringsarg *.s *~
 
-greet:
-	echo "Hello `whoami`"
+greeting:
+	echo "Hi, `whoami`"
